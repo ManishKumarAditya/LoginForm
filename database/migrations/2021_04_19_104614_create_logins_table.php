@@ -18,7 +18,6 @@ class CreateLoginsTable extends Migration
             $table->string('name');
             $table->string('email');
             $table->string('mobile');
-            $table->string('');
             $table->timestamps();
         });
     }
